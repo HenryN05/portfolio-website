@@ -14,6 +14,7 @@ body {
   font-weight: 400;
   line-height: 1;
   text-align: center;
+  background-color: black;
 }
 
 p {
@@ -103,6 +104,7 @@ input[type=tel], input[type=email], textarea {
   display: flex;
   width: 100%;
   padding: 20px;
+  position: fixed;
 }
 
 .page-header_item {
@@ -150,6 +152,7 @@ main {
 .about-question {
   text-align: left;
 }
+
 
 @supports (display: grid) {
   .grid {
