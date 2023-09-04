@@ -14,7 +14,6 @@ body {
   font-weight: 400;
   line-height: 1;
   text-align: center;
-  background-color: black;
 }
 
 p {
@@ -52,7 +51,9 @@ table {
   text-align: left;
 }
 
-button, .button, input[type=submit] {
+button,
+.button,
+input[type="submit"] {
   background-color: var(--primary-color);
   color: white;
   font-family: inherit;
@@ -63,18 +64,33 @@ button, .button, input[type=submit] {
   border-bottom: 2px solid var(--secondary-color);
   transition: opacity 0.4s;
 }
-a:hover, a:focus, button:hover, button:focus, .button:hover, .button:focus, input[type=submit]:hover, input[type=submit]:focus {
+a:hover,
+a:focus,
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
   cursor: pointer;
   opacity: 0.8;
 }
-a:visited, button:visited, .button:visited, input[type=submit]:visited {
+a:visited,
+button:visited,
+.button:visited,
+input[type="submit"]:visited {
   color: var(--secondary-color);
 }
-a:active, button:active, .button:active, input[type=submit]:active {
+a:active,
+button:active,
+.button:active,
+input[type="submit"]:active {
   opacity: 0.4;
 }
 
-input[type=tel], input[type=email], textarea {
+input[type="tel"],
+input[type="email"],
+textarea {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
@@ -109,7 +125,6 @@ input[type=tel], input[type=email], textarea {
   display: flex;
   width: 100%;
   padding: 20px;
-  position: fixed;
 }
 
 .page-header_item {
@@ -157,7 +172,6 @@ main {
 .about-question {
   text-align: left;
 }
-
 
 @supports (display: grid) {
   .grid {

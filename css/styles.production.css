@@ -52,7 +52,9 @@ table {
   text-align: left;
 }
 
-button, .button, input[type=submit] {
+button,
+.button,
+input[type="submit"] {
   background-color: var(--primary-color);
   color: white;
   font-family: inherit;
@@ -65,23 +67,38 @@ button, .button, input[type=submit] {
   -o-transition: opacity 0.4s;
   transition: opacity 0.4s;
 }
-a:hover, a:focus, button:hover, button:focus, .button:hover, .button:focus, input[type=submit]:hover, input[type=submit]:focus {
+a:hover,
+a:focus,
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
   cursor: pointer;
   opacity: 0.8;
 }
-a:visited, button:visited, .button:visited, input[type=submit]:visited {
+a:visited,
+button:visited,
+.button:visited,
+input[type="submit"]:visited {
   color: var(--secondary-color);
 }
-a:active, button:active, .button:active, input[type=submit]:active {
+a:active,
+button:active,
+.button:active,
+input[type="submit"]:active {
   opacity: 0.4;
 }
 
-input[type=tel], input[type=email], textarea {
+input[type="tel"],
+input[type="email"],
+textarea {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .button {
@@ -119,14 +136,14 @@ input[type=tel], input[type=email], textarea {
 
 .page-header_item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 200px;
-          flex: 0 1 200px;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
 }
 
 .page-header_item:last-child {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-align: right;
 }
 
@@ -149,8 +166,8 @@ input[type=tel], input[type=email], textarea {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   margin-top: 30px;
 }
