@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #4ca54f;
-  --secondary-color: #2c5f2e;
+  --primary-color: #00a9dc;
+  --secondary-color: #00658a;
   --centered-margin: 0 auto;
 }
 
@@ -86,10 +86,15 @@ input[type=tel], input[type=email], textarea {
   display: inline-block;
 }
 
-.second_button {
-  background-color: white;
-  border: 2px solid var(--primary-color);
-  color: var(--primary-color);
+.secondary_button {
+  color: white;
+  font-family: inherit;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  border-bottom: 2px solid var(--secondary-color);
+  transition: opacity 0.4s;
 }
 
 .navigation-list {
