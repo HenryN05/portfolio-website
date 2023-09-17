@@ -76,23 +76,178 @@
     </header>
 
     <main>
-      <div class="profile">
-        <img
-          src="http://via.placeholder.com/150x150"
-          class="profile-portrait"
-          alt="Henry Nguyen Portrait"
-        />
-        <h1>Hello World!</h1>
+      <section id="profile">
+        <div>
+          <img
+            src="http://via.placeholder.com/150x150"
+            class="profile-portrait"
+            alt="Henry Nguyen Portrait"
+          />
+          <h1>Hello World!</h1>
+          <p>
+            My name is Henry Nguyen and I am a
+            <span> &lt; web developer &gt; </span> from Texas.
+          </p>
+          <a href="#" class="button"> Show me some code</a>
+        </div>
+      </section>
+
+    <section id="about">
+      <h1>About Me</h1>
+      <h2>Some stuff regarding my personal life</h2>
+      <ul>
+        <h3 class="about-question">Who are you?</h3>
         <p>
-          My name is Henry Nguyen and I am a
-          <span> &lt; web developer &gt; </span> from Texas.
+          My name is Henry Nguyen and I am a teenager who's very passionate
+          about software engineering.
         </p>
-        <a href="#" class="button"> Show me some code</a>
-      </div>
+
+        <h3 class="about-question">Where are you from?</h3>
+        <p>
+          I was born in Silver Springs, Maryland but raised in Pealand, Texas.
+        </p>
+
+        <h3 class="about-question">
+          What do you enjoy the most about software development?
+        </h3>
+        <p>
+          I enjoy the problem solving and piecing-together aspects of
+          programming the most because they challenge me to be creative. I used
+          to hate those parts of programming the most but through developing my
+          skills and knowledge, I now embrace them as fun challenges.
+        </p>
+
+        <h3 class="about-question">
+          Why did you get into software engineering?
+        </h3>
+        <p>
+          I originally got into software engineering because I wanted to a
+          career where I can have location and time freedom while also making a
+          lot of money. Now, I would say that I just love coding because I am
+          aware of its immense potential to benefit humanity.
+        </p>
+
+        <h3 class="about-question">
+          How do you stay motivated to continue programming?
+        </h3>
+        <p>
+          I stay motivated by finding new things to improve on and since there's
+          so much to learn in the programming world, I have an endless amount of
+          learning and improving to do.
+        </p>
+      </ul>
+
+      <h2>Some stuff regarding my professional life</h2>
+      <table>
+        <thead>
+          <tr>
+            <td>Skills</td>
+            <td>Years of Experience</td>
+            <td>Level of Expertise</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>0.5</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>0.5</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>0</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>0.5</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="files/cv.pdf" class="button" download>Download my CV</a>
+    </section>
+
+      <section id="work">
+        <h1>Work</h1>
+        <div class="grid">
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1>Contact</h1>
+        <h2>Please feel free contact me via the following:</h2>
+        <br/>
+        <form action="" method="post" id="contact-form">
+          <label class="label" for="contact-phone"> Phone</label>
+          <input type="tel" id="contact-phone" />
+
+          <br/>
+          <label class="label" for="contact-email"> *E-mail</label>
+          <input type="email" id="contact-email" required />
+
+          <br/>
+          <label class="label" for="contact-message"> *Message</label>
+          <textarea maxlength="240" id="contact-message" required></textarea>
+
+          <input type="submit" value="Send message" />
+        </form>
+      </section>
     </main>
 
     <footer class="page-footer">
-      <h3 id="socials_header">Find me on</h3>
+      <h3>Find me on</h3>
       <div class="social_media">
         <a>
           <img src="img/github_logo.svg" alt="Github" />

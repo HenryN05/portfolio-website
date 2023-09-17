@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #00a9dc;
-  --secondary-color: #004057;
+  --primary-color: #038fba;
+  --secondary-color: #00bbff;
   --centered-margin: 0 auto;
 }
 
@@ -36,6 +36,7 @@ h h3 {
 
 a {
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 li {
@@ -43,7 +44,7 @@ li {
 }
 
 table {
-  margin: var(--centered-margin);
+  margin: 0 auto;
 }
 
 .label {
@@ -62,13 +63,11 @@ input[type="submit"] {
   padding: 10px 20px;
   border: none;
   border-radius: 3px;
-  border-bottom: 2px solid var(--secondary-color);
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  transition: opacity 0.4s;
+  -webkit-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
 }
-a:hover,
-a:focus,
+
 button:hover,
 button:focus,
 .button:hover,
@@ -76,7 +75,15 @@ button:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
   cursor: pointer;
-  opacity: 0.8;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: inherit;
+}
+  
+a:hover,
+a:focus {
+  color: var(--primary-color);
+  
 }
 a:visited,
 button:visited,
@@ -104,18 +111,6 @@ textarea {
 .button {
   margin-top: 20px;
   display: inline-block;
-}
-
-.secondary_button {
-  color: white;
-  font-family: inherit;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 3px;
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  transition: opacity 0.4s;
 }
 
 .navigation-list {
@@ -149,7 +144,7 @@ textarea {
 
 .profile {
   max-width: 700px;
-  margin: var(--centered-margin);
+  margin: 0 auto;
 }
 
 .profile-portrait {
@@ -172,17 +167,9 @@ textarea {
   margin-top: 30px;
 }
 
-main {
-  margin: var(--centered-margin);
-}
-
 .grid-item {
   display: inline-block;
   width: 33%;
-}
-
-#socials_header {
-  text-align: center;
 }
 
 .about-question {
