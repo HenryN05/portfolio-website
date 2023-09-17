@@ -19,6 +19,7 @@ body {
 
 p {
   text-align: center;
+  line-height: 150%;
 }
 
 h {
@@ -174,20 +175,26 @@ textarea {
   text-align: left;
 }
 
+.about-answer {
+  text-align: left;
+  margin-left: 50px;
+}
+
 #profile {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 #about {
-  margin-bottom: 200px;
+  margin: 100px;
+  margin-bottom: 300px;
 }
 
 #work {
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 
 #contact {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 #professional-experience {
