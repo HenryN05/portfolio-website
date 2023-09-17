@@ -18,7 +18,7 @@ body {
 }
 
 p {
-  text-align: left;
+  text-align: center;
 }
 
 h {
@@ -148,9 +148,7 @@ textarea {
 }
 
 .profile-portrait {
-  float: left;
   width: 250px;
-  margin-right: 40px;
   border-radius: 50%;
 }
 
@@ -174,6 +172,30 @@ textarea {
 
 .about-question {
   text-align: left;
+}
+
+#profile {
+  margin-bottom: 200px;
+}
+
+#about {
+  margin-bottom: 200px;
+}
+
+#work {
+  margin-bottom: 200px;
+}
+
+#contact {
+  margin-bottom: 200px;
+}
+
+#professional-experience {
+  margin-top: 50px;
+}
+
+#personal-experience {
+  margin-top: 50px
 }
 
 @supports (display: grid) {
