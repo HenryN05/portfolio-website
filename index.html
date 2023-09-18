@@ -21,8 +21,8 @@
     />
   </head>
 
-  <body>
-    <header class="page-header">
+  <body class="background">
+    <header class="page-header foreground">
       <a
         href="#profile"
         role="menuitem"
@@ -40,17 +40,8 @@
             <a
               href="#profile"
               role="menuitem"
-              class="navigation-list__item--active"
-              >Home</a
-            >
-          </li>
-          <li role="presentation">
-            <a
-              href="#about"
-              target="_self"
-              role="menuitem"
-              class="navigation-list__item"
-              >About Me</a
+              class="navigation-list__item button"
+              >Intro</a
             >
           </li>
           <li role="presentation">
@@ -58,8 +49,17 @@
               href="#work"
               target="_self"
               role="menuitem"
-              class="navigation-list__item"
+              class="navigation-list__item button"
               >My Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="#about"
+              target="_self"
+              role="menuitem"
+              class="navigation-list__item button"
+              >About Me</a
             >
           </li>
           <li role="presentation">
@@ -67,7 +67,7 @@
               href="#contact"
               target="_self"
               role="menuitem"
-              class="navigation-list__item"
+              class="navigation-list__item button"
               >Contact Me</a
             >
           </li>
@@ -76,7 +76,7 @@
     </header>
 
     <main>
-      <section id="profile">
+      <section id="profile" class="foreground">
         <div>
           <img
             src="http://via.placeholder.com/150x150"
@@ -92,7 +92,60 @@
         </div>
       </section>
 
-    <section id="about">
+      <section id="work" class="foreground">
+        <h1>Work</h1>
+        <div class="grid">
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#"> Link</a>
+          </div>
+        </div>
+      </section>
+
+    <section id="about" class="foreground">
       <h1>About Me</h1>
       <ul>
         <h3 class="about-question">Who are you?</h3>
@@ -177,60 +230,7 @@
       <a href="files/cv.pdf" class="button" download>Download my CV</a>
     </section>
 
-      <section id="work">
-        <h1>Work</h1>
-        <div class="grid">
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact">
+      <section id="contact" class="foreground">
         <h1>Contact</h1>
         <h2>Please feel free contact me via the following:</h2>
         <br/>
@@ -251,7 +251,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer foreground">
       <h3>Find me on</h3>
       <div class="social_media">
         <a>

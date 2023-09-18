@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   line-height: 1;
   text-align: center;
+  color: white
 }
 
 p {
@@ -54,6 +55,23 @@ table {
   text-align: left;
 }
 
+.foreground {
+  background-color: rgba(10, 10, 11, 1);
+  padding: 100px;
+  z-index: 2;
+}
+
+.background {
+  background-image: url('../img/background.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
 button,
 .button,
 input[type="submit"] {
@@ -78,14 +96,19 @@ input[type="submit"]:focus {
   cursor: pointer;
   background-color: var(--primary-color);
   color: white;
-  box-shadow: 0 0 100px 10px var(--secondary-color);
+  box-shadow: 0 0 100px 1px var(--secondary-color);
 }
 
-#code-button:hover, #code-button:focus {
+#code-button:hover, 
+#code-button:focus,
+.navigation-list__item.button:hover,
+.navigation-list__item.button:focus
+ {
   color: white;
 }
-  
-a:hover, a:focus {
+
+.page-header.foreground, .page-footer.foreground {
+  padding: 10px
 }
 
 a:visited,
@@ -130,7 +153,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding: 20px;
+  margin-bottom: 100px;
 }
 
 .page-header_item {
@@ -188,12 +211,12 @@ textarea {
 }
 
 #about {
-  margin: 100px;
-  margin-bottom: 300px;
+  padding: 100px;
+  margin-bottom: 00px;
 }
 
 #work {
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 #contact {
