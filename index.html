@@ -29,7 +29,7 @@
         class="navigation-list__item--active"
       >
         <img
-          src="img/personal_logo.png"
+          src=""
           class="page-header_item secondary_button"
           alt="logo"
         />
@@ -50,7 +50,7 @@
               target="_self"
               role="menuitem"
               class="navigation-list__item button"
-              >My Work</a
+              >Work</a
             >
           </li>
           <li role="presentation">
@@ -59,36 +59,48 @@
               target="_self"
               role="menuitem"
               class="navigation-list__item button"
-              >About Me</a
+              >About</a
             >
           </li>
-          <li role="presentation">
-            <a
-              href="#contact"
-              target="_self"
-              role="menuitem"
-              class="navigation-list__item button"
-              >Contact Me</a
-            >
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section id="profile" class="foreground">
-        <div>
+      <section id="intro" class="foreground">
+        <div id="profile"> 
           <img
             src="http://via.placeholder.com/150x150"
             class="profile-portrait"
             alt="Henry Nguyen Portrait"
           />
-          <h1>Hello World!</h1>
-          <p>
-            My name is Henry Nguyen and I am a
-            <span> &lt; web developer &gt; </span> from Texas.
-          </p>
-          <a href="#" class="button" id="code-button"> Show me some code</a>
+          <div id="description">
+            <h1>I'm Henry Nguyen,</h1>
+            <p>
+              and I do<span> &lt; web development &gt; </span>
+            </p>
+            <a href="#" class="button" id="code-button"> Show me some code</a>
+          </div>
+        </div>
+
+        <div id="contact">
+          <h1>Contact</h1>
+          <br/>
+          <form action="" method="post" id="contact-form">
+            <label class="label" for="contact-phone"> Phone</label>
+            <input type="tel" id="contact-phone" />
+
+            <br/>
+            <label class="label" for="contact-email"> *E-mail</label>
+            <input type="email" id="contact-email" required />
+
+            <br/>
+            <label class="label" for="contact-message"> *Message</label>
+            <textarea maxlength="240" id="contact-message" required></textarea>
+
+            <input type="submit" value="Send message" id="message-button"/>
+          </form>
         </div>
       </section>
 
@@ -145,114 +157,93 @@
         </div>
       </section>
 
-    <section id="about" class="foreground">
-      <h1>About Me</h1>
-      <ul>
-        <h3 class="about-question">Who are you?</h3>
-        <p class="about-answer">
-          My name is Henry Nguyen, and I am a teenager who's very passionate
-          about web development and software engineering.
-        </p>
+      <section id="about" class="foreground">
+        <h1>About</h1>
+        <ul>
+          <h3 class="about-question">Who are you?</h3>
+          <p class="about-answer">
+            My name is Henry Nguyen, and I am a teenager who's very passionate
+            about web development and software engineering.
+          </p>
 
-        <h3 class="about-question">Where are you from?</h3>
-        <p class="about-answer">
-          I was born in Silver Springs, Maryland but raised in Pealand, Texas.
-        </p>
+          <h3 class="about-question">Where are you from?</h3>
+          <p class="about-answer">
+            I was born in Silver Springs, Maryland but raised in Pealand, Texas.
+          </p>
 
-        <h3 class="about-question">
-          What do you enjoy the most about web development?
-        </h3>
-        <p class="about-answer">
-          I enjoy the problem solving and piecing-together aspects of
-          programming the most because they challenge me to be creative. 
-        </p>
-        <p class="about-answer">
-          I used to hate those parts of programming the most but through 
-          developing my skills and knowledge, I now embrace them as 
-          challenging, learning experiences.
-        </p>
+          <h3 class="about-question">
+            What do you enjoy the most about web development?
+          </h3>
+          <p class="about-answer">
+            I enjoy the problem solving and piecing-together aspects of
+            programming the most because they challenge me to be creative. 
+          </p>
+          <p class="about-answer">
+            I used to hate those parts of programming the most but through 
+            developing my skills and knowledge, I now embrace them as 
+            learning experiences.
+          </p>
 
-        <h3 class="about-question">
-          Why did you get into web development?
-        </h3>
-        <p class="about-answer">
-          I originally got into software engineering because I wanted to a
-          career where I can have location and time freedom while also making a
-          lot of money. 
-        </p>
-        <p class="about-answer">
-          Now, I would say that I just love coding because I want
-          to contribute to something bigger than myself through web development.
-        </p>
+          <h3 class="about-question">
+            Why did you get into web development?
+          </h3>
+          <p class="about-answer">
+            I originally got into software engineering because I wanted to a
+            career where I can have location and time freedom while also making a
+            lot of money. 
+          </p>
+          <p class="about-answer">
+            Now, I would say that I just love coding because I want
+            to contribute to something bigger than myself through web development.
+          </p>
 
-        <h3 class="about-question">
-          How do you stay motivated to continue programming?
-        </h3>
-        <p class="about-answer">
-          I stay motivated by finding new things to improve on and since there's
-          so much to learn in the programming world, I have an endless amount of
-          learning and improving to do.
-        </p>
-      </ul>
+          <h3 class="about-question">
+            How do you stay motivated to continue programming?
+          </h3>
+          <p class="about-answer">
+            I stay motivated by finding new things to improve on and since there's
+            so much to learn in the programming world, I have an endless amount of
+            learning and improving to do.
+          </p>
+        </ul>
 
-      <h1>My Experience</h1>
-      <table>
-        <thead>
-          <tr>
-            <td>Skills</td>
-            <td>Years of Experience</td>
-            <td>Level of Expertise</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>0.5</td>
-            <td>Beginner</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>0.5</td>
-            <td>Beginner</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>0</td>
-            <td>Beginner</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>0.5</td>
-            <td>Beginner</td>
-          </tr>
-        </tbody>
-      </table>
-      <a href="files/cv.pdf" class="button" download>Download my CV</a>
-    </section>
-
-      <section id="contact" class="foreground">
-        <h1>Contact</h1>
-        <h2>Please feel free contact me via the following:</h2>
-        <br/>
-        <form action="" method="post" id="contact-form">
-          <label class="label" for="contact-phone"> Phone</label>
-          <input type="tel" id="contact-phone" />
-
-          <br/>
-          <label class="label" for="contact-email"> *E-mail</label>
-          <input type="email" id="contact-email" required />
-
-          <br/>
-          <label class="label" for="contact-message"> *Message</label>
-          <textarea maxlength="240" id="contact-message" required></textarea>
-
-          <input type="submit" value="Send message" />
-        </form>
+        <h1>Experience</h1>
+        <table>
+          <thead>
+            <tr>
+              <td>Skills</td>
+              <td>Years of Experience</td>
+              <td>Level of Expertise</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>0.5</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>0.5</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>0</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>0.5</td>
+              <td>Beginner</td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="files/cv.pdf" class="button" download>Download my CV</a>
       </section>
     </main>
 
     <footer class="page-footer foreground">
-      <h3>Find me on</h3>
       <div class="social_media">
         <a>
           <img src="img/github_logo.svg" alt="Github" />
