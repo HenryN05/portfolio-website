@@ -55,7 +55,10 @@ li {
 /* Tables */
 table {
   margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 50px 10px;
 }
+
 
 /* Form Elements */
 .label {
@@ -111,6 +114,12 @@ input[type="submit"]:focus {
 }
 
 /* Additional Button Styles */
+
+.button {
+  margin-top: 20px;
+  display: inline-block;
+}
+
 #code-button:hover,
 #code-button:focus,
 .navigation-list__item.button:hover,
@@ -153,13 +162,30 @@ textarea {
   padding: 8px;
   margin-bottom: 10px;
   max-width: 500px;
-  resize: vertical;
+  border-radius: 25px;
+  background-color: lightgray;
 }
 
-/* Additional Button Styles */
-.button {
-  margin-top: 20px;
-  display: inline-block;
+textarea {
+  height: 84px; 
+  border-radius: 25px;
+  background-color: lightgray;
+  box-sizing: border-box;
+  resize: none;
+  overflow-y: auto;
+}
+
+textarea::-webkit-scrollbar {
+  width: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 5px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background-color: lightgray;
 }
 
 /* Navigation Styles */

@@ -22,7 +22,7 @@
   </head>
 
   <body class="background">
-    <header class="page-header foreground fixed">
+    <header class="page-header foreground">
       <a
         href="#profile"
         role="menuitem"
@@ -68,7 +68,7 @@
     </header>
 
     <main>
-      <section id="intro" class="foreground fixed">
+      <section id="intro" class="foreground">
         <div id="profile"> 
           <img
             src="http://via.placeholder.com/150x150"
@@ -88,16 +88,16 @@
           <h1>Contact</h1>
           <br/>
           <form action="" method="post" id="contact-form">
-            <label class="label" for="contact-phone"> Phone</label>
-            <input type="tel" id="contact-phone" />
+            <label class="label" for="contact-phone"></label>
+            <input type="tel" id="contact-phone" placeholder="Phone"/>
 
             <br/>
-            <label class="label" for="contact-email"> *E-mail</label>
-            <input type="email" id="contact-email" required />
+            <label class="label" for="contact-email"></label>
+            <input type="email" id="contact-email" required placeholder="Email"/>
 
             <br/>
-            <label class="label" for="contact-message"> *Message</label>
-            <textarea maxlength="240" id="contact-message" required></textarea>
+            <label class="label" for="contact-message"></label>
+            <textarea maxlength="240" id="contact-message" required placeholder="Message"></textarea>
 
             <input type="submit" value="Send message" id="message-button"/>
           </form>
