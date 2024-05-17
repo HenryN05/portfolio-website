@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;500&family=Montserrat:wght@300;400&family=Roboto:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../css/styles.css">
   </head>
 
   <body class="background">
@@ -31,15 +32,7 @@
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
             <a
-              href="#profile"
-              role="menuitem"
-              class="navigation-list__item button"
-              >Intro</a
-            >
-          </li>
-          <li role="presentation">
-            <a
-              href="#work"
+              href="./html/work.html"
               target="_self"
               role="menuitem"
               class="navigation-list__item button"
@@ -48,198 +41,39 @@
           </li>
           <li role="presentation">
             <a
-              href="#about"
+              href="./html/about.html"
               target="_self"
               role="menuitem"
               class="navigation-list__item button"
               >About</a
             >
           </li>
+          <li role="presentation">
+            <a
+              href="./html/contact.html"
+              target="_self"
+              role="menuitem"
+              class="navigation-list__item button"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
-
-    <main>
       <section id="intro" class="foreground">
-        <div id="profile">
           <img
             src="http://via.placeholder.com/150x150"
             class="profile-portrait"
             alt="Henry Nguyen Portrait"
           />
           <div id="description">
-            <h1>I'm Henry Nguyen,</h1>
+            <h1>Hey! I'm Henry Nguyen,</h1>
             <p>
               and I do<span> &lt; web development &gt; </span>
             </p>
             <a href="#" class="button" id="code-button"> Show me some code</a>
           </div>
-        </div>
-
-        <div id="contact">
-          <h1>Contact</h1>
-          <br/>
-          <form action="" method="post" id="contact-form">
-            <label class="label" for="contact-phone"></label>
-            <input type="tel" id="contact-phone" placeholder="Phone"/>
-
-            <br/>
-            <label class="label" for="contact-email"></label>
-            <input type="email" id="contact-email" required placeholder="Email"/>
-
-            <br/>
-            <label class="label" for="contact-message"></label>
-            <textarea maxlength="240" id="contact-message" required placeholder="Message"></textarea>
-
-            <input type="submit" value="Send message" id="message-button"/>
-          </form>
-        </div>
       </section>
-
-      <section id="work" class="foreground">
-        <h1>Work</h1>
-        <div class="grid">
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-
-          <div class="grid-item">
-            <h2>Title</h2>
-            <p>Description</p>
-            <a href="#"> Link</a>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="foreground">
-        <h1>About</h1>
-        <ul>
-          <h3 class="about-question">Who are you?</h3>
-          <p class="about-answer">
-            My name is Henry Nguyen, and I am a teenager who's very passionate
-            about web development and software engineering.
-          </p>
-
-          <h3 class="about-question">Where are you from?</h3>
-          <p class="about-answer">
-            I was born in Silver Springs, Maryland but raised in Pealand, Texas.
-          </p>
-
-          <h3 class="about-question">
-            What do you enjoy the most about web development?
-          </h3>
-          <p class="about-answer">
-            I enjoy the problem solving and piecing-together aspects of
-            programming the most because they challenge me to be creative. 
-          </p>
-          <p class="about-answer">
-            I used to hate those parts of programming the most but through 
-            developing my skills and knowledge, I now embrace them as 
-            learning experiences.
-          </p>
-
-          <h3 class="about-question">
-            Why did you get into web development?
-          </h3>
-          <p class="about-answer">
-            I originally got into software engineering because I wanted to a
-            career where I can have location and time freedom while also making a
-            lot of money. 
-          </p>
-          <p class="about-answer">
-            Now, I would say that I just love coding because I want
-            to contribute to something bigger than myself through web development.
-          </p>
-
-          <h3 class="about-question">
-            How do you stay motivated to continue programming?
-          </h3>
-          <p class="about-answer">
-            I stay motivated by finding new things to improve on and since there's
-            so much to learn in the programming world, I have an endless amount of
-            learning and improving to do.
-          </p>
-        </ul>
-
-        <h1>Experience</h1>
-        <table>
-          <thead>
-            <tr>
-              <td>Skills</td>
-              <td>Years of Experience</td>
-              <td>Level of Expertise</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>HTML</td>
-              <td>1</td>
-              <td>Beginner</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>1</td>
-              <td>Beginner</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>0.5</td>
-              <td>Beginner</td>
-            </tr>
-            <tr>
-              <td>React</td>
-              <td>0.5</td>
-              <td>Beginner</td>
-            </tr>
-            <tr>
-              <td>Node.js</td>
-              <td>0.5</td>
-              <td>Beginner</td>
-            </tr>
-          </tbody>
-        </table>
-        <a href="files/cv.pdf" class="button" download>Download my CV</a>
-      </section>
-    </main>
-
     <footer class="page-footer foreground">
       <div class="social_media">
         <a>
