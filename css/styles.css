@@ -81,9 +81,11 @@ input[type=tel], input[type=email], textarea {
     text-align: center;
 }
 .profile-portrait {
-	float: left;
 	width: 250px;
 	border-radius: 50%;
+}
+.profile-body {
+	display: flex;
 }
 .page-footer {
 	clear: both;
