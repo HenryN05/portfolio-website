@@ -47,9 +47,9 @@ table {
 	text-align: left;
 }
 
-button, .button:after, input[type=submit] {
+button:after, .button:after {
   content: "";
-  background-color: #4cff9a;
+  background-color: #25c6f789;
   width: 100%;
   z-index: -1;
   position: absolute;
@@ -59,7 +59,7 @@ button, .button:after, input[type=submit] {
   transition: 0.2s;
 }
 
-.button:hover:after {
+button:hover:after, .button:hover:after {
   top: 0px;
   left: 0px;
 }
@@ -69,9 +69,9 @@ button, .button:after, input[type=submit] {
     padding: 13px 50px 13px;
   }
 }
-button, .button, input[type=submit] {
+button, .button {
 	font-size: 16px;
-  font-weight: 200;
+  font-weight: 500;
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
@@ -120,13 +120,6 @@ input[type=tel], input[type=email], textarea {
 	display: inline-block;
 	width: 33%;
 }
-.about-question {
-	text-align: left;
-}
-.social-media {
-	width: 2.5%;
-	height: auto;
-}
 #contact-form {
 	display: flex;
 	flex-direction: column;
@@ -134,7 +127,6 @@ input[type=tel], input[type=email], textarea {
 }
 #message-button {
 	width: 50%;
-	margin-right: 32px;
 	margin-top: 20px;
 }
 @supports (display: grid) {
