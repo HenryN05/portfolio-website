@@ -24,6 +24,9 @@ h h2 {
 h h3 {
 	font-size: 24px;
 }
+section {
+	margin-top: 200px;
+}
 a {
 	color: #4ca54f;
 }
@@ -72,17 +75,18 @@ input[type=tel], input[type=email], textarea {
 	margin: 20px;
 	display: inline-block;
 }
+.page-header {
+	display: flex;
+	justify-content: center;
+}
 .navigation-list {
-    position: absolute;
-    top: 0;
-    left: 25%;
-    display: flex;
-    width: 100%;
-    text-align: center;
+	display: flex;
+	text-align: center;
 }
 .profile-portrait {
 	width: 250px;
 	border-radius: 50%;
+	margin-right: 50px;
 }
 .profile-body {
 	display: flex;
@@ -91,16 +95,12 @@ input[type=tel], input[type=email], textarea {
 .page-footer {
 	clear: both;
 	display: flex;
-	flex-direction: column;
-	text-align: center;
+	justify-content: center;
 	margin-top: 100px;
 }
 .grid-item {
 	display: inline-block;
 	width: 33%;
-}
-#socials_header {
-	text-align: center;
 }
 .about-question {
 	text-align: left;
