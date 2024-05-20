@@ -25,7 +25,7 @@ h h3 {
 	font-size: 24px;
 }
 section {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 a {
 	color: black;
@@ -123,7 +123,7 @@ button:hover:after, .button:hover:after {
   transition: 0.2s;
 }
 .work button:active, .work .button:active {
-	background-color: #faf21373;
+	background-color: #faf21352;
 }
 .work button:hover:after, .work .button:hover:after {
   top: 0px;
