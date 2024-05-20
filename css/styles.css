@@ -46,8 +46,12 @@ table {
 	margin-bottom: 5px;
 	text-align: left;
 }
-
-button:after, .button:after {
+button:hover:after, .button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+/* button syles for profile page */
+.profile button:after, .profile .button:after {
   content: "";
   background-color: #25c6f789;
   width: 100%;
@@ -58,17 +62,74 @@ button:after, .button:after {
   left: 7px;
   transition: 0.2s;
 }
-
-button:hover:after, .button:hover:after {
+.profile button:active, .profile .button:active {
+	background-color: #25c6f73b;
+}
+.profile button:hover:after, .profile .button:hover:after {
   top: 0px;
   left: 0px;
 }
 
-@media (min-width: 768px) {
-  .button {
-    padding: 13px 50px 13px;
-  }
+/* button syles for about page */
+.about .button:after, .about .button:after {
+  content: "";
+  background-color: #f3111189;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
 }
+.about button:active, .about .button:active {
+	background-color: #f311113a;
+}
+.about button:hover:after, .about .button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+/* button syles for contact page */
+.contact button:after, .contact .button:after {
+  content: "";
+  background-color: #0ef53889;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+.contact button:active, .contact .button:active {
+	background-color: #0ef53834;
+}
+.contact button:hover:after, .contact .button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+/* button syles for work page */
+.work button:after, .work .button:after {
+  content: "";
+  background-color: #faf213d8;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+.work button:active, .work .button:active {
+	background-color: #faf21373;
+}
+.work button:hover:after, .work .button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
 button, .button {
 	font-size: 16px;
   font-weight: 500;
@@ -155,7 +216,12 @@ input[type=tel], input[type=email], textarea {
 	@media (min-width: 500px) and (max-width: 750px) {
 		.grid {
 			grid-template-columns: 1fr 1fr;
+		}
 	}
+	@media (min-width: 768px) {
+		.button {
+			padding: 13px 50px 13px;
+		}
 	}
 	@media (max-width: 750px) {
 		.grid {
