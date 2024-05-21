@@ -1,0 +1,18 @@
+.work button:after, .work .button:after {
+  content: "";
+  background-color: #faf213d8;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+.work button:active, .work .button:active {
+	background-color: #faf21352;
+}
+.work button:hover:after, .work .button:hover:after {
+  top: 0px;
+  left: 0px;
+}

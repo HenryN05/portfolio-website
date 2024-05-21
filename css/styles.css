@@ -50,85 +50,6 @@ button:hover:after, .button:hover:after {
   top: 0px;
   left: 0px;
 }
-/* button syles for profile page */
-.profile button:after, .profile .button:after {
-  content: "";
-  background-color: #25c6f789;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-  top: 7px;
-  left: 7px;
-  transition: 0.2s;
-}
-.profile button:active, .profile .button:active {
-	background-color: #25c6f73b;
-}
-.profile button:hover:after, .profile .button:hover:after {
-  top: 0px;
-  left: 0px;
-}
-
-/* button syles for about page */
-.about .button:after, .about .button:after {
-  content: "";
-  background-color: #f3111189;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-  top: 7px;
-  left: 7px;
-  transition: 0.2s;
-}
-.about button:active, .about .button:active {
-	background-color: #f311113a;
-}
-.about button:hover:after, .about .button:hover:after {
-  top: 0px;
-  left: 0px;
-}
-
-/* button syles for contact page */
-.contact button:after, .contact .button:after {
-  content: "";
-  background-color: #0ef53889;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-  top: 7px;
-  left: 7px;
-  transition: 0.2s;
-}
-.contact button:active, .contact .button:active {
-	background-color: #0ef53834;
-}
-.contact button:hover:after, .contact .button:hover:after {
-  top: 0px;
-  left: 0px;
-}
-
-/* button syles for work page */
-.work button:after, .work .button:after {
-  content: "";
-  background-color: #faf213d8;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-  top: 7px;
-  left: 7px;
-  transition: 0.2s;
-}
-.work button:active, .work .button:active {
-	background-color: #faf21352;
-}
-.work button:hover:after, .work .button:hover:after {
-  top: 0px;
-  left: 0px;
-}
 
 button, .button {
 	font-size: 16px;
@@ -160,10 +81,6 @@ input[type=tel], input[type=email], textarea {
 	display: flex;
 	text-align: center;
 }
-.profile-body {
-	display: flex;
-	justify-content: center;
-}
 .page-footer {
 	clear: both;
 	display: flex;
@@ -173,20 +90,6 @@ input[type=tel], input[type=email], textarea {
 .grid-item {
 	display: inline-block;
 	width: 33%;
-}
-#profile-portrait {
-	width: 250px;
-	border-radius: 50%;
-	margin-right: 50px;
-}
-#contact-form {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-#message-button {
-	width: 50%;
-	margin-top: 20px;
 }
 @supports (display: grid) {
 	.grid {

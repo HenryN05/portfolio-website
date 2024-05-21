@@ -1,0 +1,27 @@
+.profile button:after, .profile .button:after {
+  content: "";
+  background-color: #25c6f789;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+.profile button:active, .profile .button:active {
+	background-color: #25c6f73b;
+}
+.profile button:hover:after, .profile .button:hover:after {
+  top: 0px;
+  left: 0px;
+}
+#profile-portrait {
+	width: 250px;
+	border-radius: 50%;
+	margin-right: 50px;
+}
+#profile {
+	display: flex;
+	justify-content: center;
+}
