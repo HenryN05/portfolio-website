@@ -1,6 +1,6 @@
 @keyframes bounceInRight {
   0% {
-    transform: translateX(500px);
+    transform: translateX(1000px);
   }
 
   70% {
@@ -21,7 +21,7 @@
 
 @keyframes slideInRight {
   from {
-    transform: translateX(500px);
+    transform: translateX(1000px);
   }
 
   to {
@@ -31,7 +31,7 @@
 
 @keyframes rollInLeft {
   from {
-    transform: translateX(-500px) rotate(0deg);
+    transform: translateX(-1000px) rotate(0deg);
     ;
   }
 
