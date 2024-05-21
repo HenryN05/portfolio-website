@@ -143,16 +143,14 @@ button, .button {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+	margin: 20px;
+	display: inline-block;
 }
 input[type=tel], input[type=email], textarea {
 	width: 50%;
 	padding: 8px;
 	margin-bottom: 10px;
 	box-sizing: border-box;
-}
-.button {
-	margin: 20px;
-	display: inline-block;
 }
 .page-header {
 	display: flex;
@@ -161,11 +159,6 @@ input[type=tel], input[type=email], textarea {
 .navigation-list {
 	display: flex;
 	text-align: center;
-}
-.profile-portrait {
-	width: 250px;
-	border-radius: 50%;
-	margin-right: 50px;
 }
 .profile-body {
 	display: flex;
@@ -180,6 +173,11 @@ input[type=tel], input[type=email], textarea {
 .grid-item {
 	display: inline-block;
 	width: 33%;
+}
+#profile-portrait {
+	width: 250px;
+	border-radius: 50%;
+	margin-right: 50px;
 }
 #contact-form {
 	display: flex;
