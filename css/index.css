@@ -47,12 +47,12 @@
 
 /* Shapes for background*/
 #shape1 {
-  transform: translateX(-557px) translateY(-407px);
+  transform: translateX(-550px) translateY(-350px);
   height: 350px;
   width: 350px;
 }
 #shape2 {
-  transform: translateX(-550px) translateY(-400px);
+  transform: translateX(-543px) translateY(-343px);
   height: 350px;
   width: 350px;
 }
