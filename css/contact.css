@@ -26,7 +26,7 @@
 	width: 50%;
 	margin-top: 20px;
 }
-.trapezoid-outline {
+.circle-outline {
   border: 1px solid black;
   width: 200px;
   height: 200px;
@@ -36,7 +36,7 @@
   z-index: -1;
 }
 
-.trapezoid-solid {
+.circle-solid {
   background-color: #0ef53889;
   height: 200px;
   width: 200px;
@@ -48,30 +48,30 @@
 
 /* Shapes for background*/
 #shape1 {
-  transform: translateX(-550px) translateY(-350px);
-  height: 350px;
-  width: 350px;
+  transform: translateX(-400px) translateY(-550px);
+  height: 100px;
+  width: 100px;
 }
 #shape2 {
-  transform: translateX(-543px) translateY(-343px);
-  height: 350px;
-  width: 350px;
+  transform: translateX(-393px) translateY(-543px);
+  height: 100px;
+  width: 100px;
 }
 #shape3 {
-  transform: translateX(-250px) translateY(80px);
-  height: 250px;
-  width: 250px;
+  transform: translateX(-650px) translateY(-300px);
+  height: 150px;
+  width: 150px;
 }
 #shape4 {
-  transform: translateX(-243px) translateY(87px);
-  height: 250px;
-  width: 250px;
+  transform: translateX(-643px) translateY(-293px);
+  height: 150px;
+  width: 150px;
 }
 #shape5 {
-  transform: translateX(300px) translateY(-100px);
+  transform: translateX(50px) translateY(-450px);
 }
 #shape6 {
-  transform: translateX(307px) translateY(-93px);
+  transform: translateX(57px) translateY(-443px);
 }
 #shape7 {
   transform: translateX(400px) translateY(-400px);
@@ -84,12 +84,12 @@
   width: 100px;
 }
 #shape9 {
-  transform: translateX(200px) translateY(150px);
-  height: 150px;
-  width: 150px;
+  transform: translateX(200px) translateY(-100px);
+  height: 250px;
+  width: 250px;
 }
 #shape10 {
-  transform: translateX(207px) translateY(157px);
-  width: 150px;
-  height: 150px;
+  transform: translateX(207px) translateY(-93px);
+  width: 250px;
+  height: 250px;
 }
