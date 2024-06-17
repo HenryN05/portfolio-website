@@ -25,7 +25,7 @@
   position: absolute;
 }
 
-.circle-solid {
+.circle-solid-red {
   background-color: #f3111189;
   height: 200px;
   width: 200px;
@@ -36,49 +36,3 @@
 }
 
 /* Shapes for background*/
-#shape1 {
-  transform: translateX(-550px) translateY(-850px);
-}
-#shape2 {
-  transform: translateX(-543px) translateY(-843px);
-}
-#shape3 {
-  transform: translateX(-600px) translateY(-400px);
-  height: 250px;
-  width: 250px;
-}
-#shape4 {
-  transform: translateX(-593px) translateY(-397px);
-  height: 250px;
-  width: 250px;
-}
-#shape5 {
-  transform: translateX(-600px) translateY(-630px);
-  height: 100px;
-  width: 100px;
-}
-#shape6 {
-  transform: translateX(-597px) translateY(-623px);
-  height: 100px;
-  width: 100px;
-}
-#shape7 {
-  transform: translateX(400px) translateY(-400px);
-  height: 150px;
-  width: 150px;
-}
-#shape8 {
-  transform: translateX(407px) translateY(-393px);
-  height: 150px;
-  width: 150px;
-}
-#shape9 {
-  transform: translateX(500px) translateY(-800px);
-  height: 350px;
-  width: 350px;
-}
-#shape10 {
-  transform: translateX(507px) translateY(-793px);
-  width: 350px;
-  height: 350px;
-}
