@@ -24,15 +24,4 @@
   display: inline-block;
   position: absolute;
 }
-
-.circle-solid-red {
-  background-color: #f3111189;
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  z-index: -1;
-}
-
 /* Shapes for background*/

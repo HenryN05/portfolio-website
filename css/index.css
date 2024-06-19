@@ -1,3 +1,5 @@
+
+
 .profile button:after, .profile .button:after {
   content: "";
   background-color: #25c6f789;
@@ -75,98 +77,14 @@
   z-index: -2;
 }
 
-/* Shapes for profile background*/
-#shape1 {
-  transform: translateX(-520px) translateY(-400px);
-  height: 350px;
-  width: 350px;
-}
-#shape2 {
-  transform: translateX(-527px) translateY(-407px);
-  height: 350px;
-  width: 350px;
-}
-#shape3 {
-  transform: translateX(-250px) translateY(80px);
-  height: 250px;
-  width: 250px;
-}
-#shape4 {
-  transform: translateX(-243px) translateY(87px);
-  height: 250px;
-  width: 250px;
-}
-#shape5 {
-  transform: translateX(300px) translateY(-100px);
-}
-#shape6 {
-  transform: translateX(307px) translateY(-93px);
-}
-#shape7 {
-  transform: translateX(400px) translateY(-400px);
-  height: 100px;
-  width: 100px;
-}
-#shape8 {
-  transform: translateX(407px) translateY(-393px);
-  height: 100px;
-  width: 100px;
-}
-#shape9 {
-  transform: translateX(200px) translateY(150px);
-  height: 150px;
-  width: 150px;
-}
-#shape10 {
-  transform: translateX(207px) translateY(157px);
-  width: 150px;
-  height: 150px;
-}
+/* Solid circles for profile background*/
+/* Outlines for profile background*/
 
-/* Shapes for About background*/
-#shape11 {
-  transform: translateX(-550px) translateY(-850px);
-}
-#shape12 {
-  transform: translateX(-543px) translateY(-843px);
-}
-#shape13 {
-  transform: translateX(-600px) translateY(-400px);
-  height: 250px;
-  width: 250px;
-}
-#shape14 {
-  transform: translateX(-593px) translateY(-397px);
-  height: 250px;
-  width: 250px;
-}
-#shape15 {
-  transform: translateX(-600px) translateY(-630px);
-  height: 100px;
-  width: 100px;
-}
-#shape16 {
-  transform: translateX(-597px) translateY(-623px);
-  height: 100px;
-  width: 100px;
-}
-#shape17 {
-  transform: translateX(400px) translateY(-400px);
-  height: 150px;
-  width: 150px;
-}
-#shape18 {
-  transform: translateX(407px) translateY(-393px);
-  height: 150px;
-  width: 150px;
-}
-#shape19 {
-  transform: translateX(500px) translateY(-800px);
-  height: 350px;
-  width: 350px;
-}
-#shape20 {
-  transform: translateX(507px) translateY(-793px);
-  width: 350px;
-  height: 350px;
-}
+/* Solid circles for about background*/
+/* Outlines for about background*/
+
+/* Solid circles for work background*/
+/* Outlines for work background*/
+
+/* Solid circles for contact background*/
+/* Outlines for contact background*/
