@@ -55,9 +55,10 @@
         </ul>
       </nav>
     </header>
+
     <section id="profile">
       <img
-        src="http://via.placeholder.com/150x150"
+        src="./img/yearbook-picture.JPG"
         id="profile-portrait"
         alt="Henry Nguyen Portrait"
       />
@@ -71,23 +72,182 @@
           and sometimes I do
         </p>
         <h2 id="profession">Web Development</h2>
-        <a href="../html/work.html" class="button" id="code-button"> Check out my code!</a>
+        <a href="./html/work.html" class="button" id="code-button"> Check out my code!</a>
       </div>
     </section>
+    <section id="about">
+      <h1>A Little About Me... 	&#128526;</h1>
+        <h3>Background</h3>
+          <p>
+            Recent high school graduate who's always willing to challenge himself.
+          </p>
+          <p>
+            Relentless learner who's always willing to listen, adapt, and improve.
+          </p>
+        <h3>Passion</h3>
+          <p>
+            Creating cool websites that promote useful products and
+            services to new audiences.
+          </p>
+          <p>
+            Utilizing technology to improve people's standard of
+            living and leaving a positive impact on the world.
+          </p>
+          <p>
+            Combining love of problem-solving with interest in
+            technology to create innovative solutions.
+          </p>
+        <h3>Skills</h3>
+          <p></p>
+        <h3>Hobbies</h3>
+          <p>
+            Exercising via weightlifting, running, or martial arts.
+          </p>
+          <p>
+            Meticulously extracting useless meanings from movies, shows, and books.
+          </p>
+          <p>
+            And of course, remaining sane through spending time with family and friends. :D
+          </p>
+      <a href="../img/Henry_Nguyen_Resume.png" class="button" download>Download My Resume</a>
+    </section>
+    <section id="work">
+        <h1>Some of My Projects! 	&#128196;</h1>
+        <div class="grid">
+          <div class="grid-item">
+            <h2>Portfolio Website</h2>
+            <p>
+              This very website was created with HTML, CSS, and a hint of Javascript.
+              It was designed to showcase my basic understanding of HTML elements, CSS
+              styling, and simple Javascript functions.
+            </p>
+            <a href="https://github.com/henryn05/portfolio">Code</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Pokedex</h2>
+            <p>
+              A Javascript app that displays all 151 original Pokemon.
+              It connects to an external API via MongoDB and utilizes
+              the Bootstrap framework for styling.
+            </p>
+            <a href="https://github.com/henryn05/pokedex">Code</a>
+            <a href="https://henryn05.github.io/pokedex/">App</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>MyFlix</h2>
+            <p>
+              Movie database built on MERN tech stack which also used React-Bootstrap and
+              SCSS for styling. The backend API was hosted by Render and the frontend client
+              view was hosed by Netlify.
+            </p>
+            <a href="https://github.com/henryn05/myFlix-api">Backend Code</a>
+            <a href="https://github.com/henryn05/myFlix-client">Frontend Code</a>
+            <a href="https://myflix-hn05.netlify.app">App</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Meet App</h2>
+            <p>
+              Progressive web-application utilizing Google Calendar's API. The app was built
+              through test-driven development using Jest and Asastus. React components were
+              used to create the UI and Github Pages was used to host the live website.
+            </p>
+            <a href="https://github.com/henryn05/meet">Code</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#">Code</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#">Code</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#">Code</a>
+          </div>
+
+          <div class="grid-item">
+            <h2>Title</h2>
+            <p>Description</p>
+            <a href="#">Code</a>
+          </div>
+        </div>
+    </section>
+    <section id="contact">
+      <h1>Let's Connect! &#128222;</h1>
+      <br/>
+      <form action="" method="post" id="contact-form">
+        <label class="label" for="contact-phone"></label>
+        <input type="tel" id="contact-phone" placeholder="Phone"/>
+
+        <label class="label" for="contact-email"></label>
+        <input type="email" id="contact-email" required placeholder="Email"/>
+
+        <label class="label" for="contact-message"></label>
+        <textarea maxlength="240" id="contact-message" required placeholder="Message"></textarea>
+        <button type="submit" value="Send message" id="message-button">
+          Submit
+        </button> <!-- if button doesn't work, change to input-->
+      </form>
+    </section>
+
     <footer class="page-footer">
       <div>
         <a href="https://github.com/henryn05">Github</a> | <a href="">Slack</a> | <a>LinkedIn</a>
       </div>
     </footer>
+    <!--profile color scheme-->
     <div id= "shape1" class="circle-outline"></div>
-    <div id= "shape2" class="circle-solid"></div>
+    <div id= "shape2" class="circle-solid-blue"></div>
     <div id= "shape3" class="circle-outline"></div>
-    <div id= "shape4" class="circle-solid"></div>
+    <div id= "shape4" class="circle-solid-blue"></div>
     <div id= "shape5" class="circle-outline"></div>
-    <div id= "shape6" class="circle-solid"></div>
+    <div id= "shape6" class="circle-solid-blue"></div>
     <div id= "shape7" class="circle-outline"></div>
-    <div id= "shape8" class="circle-solid"></div>
+    <div id= "shape8" class="circle-solid-blue"></div>
     <div id= "shape9" class="circle-outline"></div>
-    <div id= "shape10" class="circle-solid"></div>
+    <div id= "shape10" class="circle-solid-blue"></div>
+    <!--About color scheme-->
+    <div id= "shape11" class="circle-outline"></div>
+    <div id= "shape12" class="circle-solid-red"></div>
+    <div id= "shape13" class="circle-outline"></div>
+    <div id= "shape14" class="circle-solid-red"></div>
+    <div id= "shape15" class="circle-outline"></div>
+    <div id= "shape16" class="circle-solid-red"></div>
+    <div id= "shape17" class="circle-outline"></div>
+    <div id= "shape18" class="circle-solid-red"></div>
+    <div id= "shape19" class="circle-outline"></div>
+    <div id= "shape20" class="circle-solid-red"></div>
+    <!--Work color scheme-->
+    <div id= "shape21" class="circle-outline"></div>
+    <div id= "shape22" class="circle-solid-yellow"></div>
+    <div id= "shape23" class="circle-outline"></div>
+    <div id= "shape24" class="circle-solid-yellow"></div>
+    <div id= "shape25" class="circle-outline"></div>
+    <div id= "shape26" class="circle-solid-yellow"></div>
+    <div id= "shape27" class="circle-outline"></div>
+    <div id= "shape28" class="circle-solid-yellow"></div>
+    <div id= "shape29" class="circle-outline"></div>
+    <div id= "shape30" class="circle-solid-yellow"></div>
+    <!--Contact color scheme-->
+    <div id= "shape31" class="circle-outline"></div>
+    <div id= "shape32" class="circle-solid-green"></div>
+    <div id= "shape33" class="circle-outline"></div>
+    <div id= "shape34" class="circle-solid-green"></div>
+    <div id= "shape35" class="circle-outline"></div>
+    <div id= "shape36" class="circle-solid-green"></div>
+    <div id= "shape37" class="circle-outline"></div>
+    <div id= "shape38" class="circle-solid-green"></div>
+    <div id= "shape39" class="circle-outline"></div>
+    <div id= "shape40" class="circle-solid-green"></div>
   </body>
 </html>

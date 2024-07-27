@@ -1,3 +1,5 @@
+
+
 .profile button:after, .profile .button:after {
   content: "";
   background-color: #25c6f789;
@@ -35,60 +37,54 @@
   position: absolute;
 }
 
-.circle-solid {
+.circle-solid-blue {
   background-color: #25c6f789;
   height: 200px;
   width: 200px;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  z-index: -1;
+  z-index: -2;
 }
 
-/* Shapes for background*/
-#shape1 {
-  transform: translateX(-550px) translateY(-350px);
-  height: 350px;
-  width: 350px;
+.circle-solid-red {
+  background-color: #f3111189;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: -2;
 }
-#shape2 {
-  transform: translateX(-543px) translateY(-343px);
-  height: 350px;
-  width: 350px;
+
+.circle-solid-yellow {
+  background-color: #faf213d8;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: -2;
 }
-#shape3 {
-  transform: translateX(-250px) translateY(80px);
-  height: 250px;
-  width: 250px;
+
+.circle-solid-green {
+  background-color: #0ef53889;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: -2;
 }
-#shape4 {
-  transform: translateX(-243px) translateY(87px);
-  height: 250px;
-  width: 250px;
-}
-#shape5 {
-  transform: translateX(300px) translateY(-100px);
-}
-#shape6 {
-  transform: translateX(307px) translateY(-93px);
-}
-#shape7 {
-  transform: translateX(400px) translateY(-400px);
-  height: 100px;
-  width: 100px;
-}
-#shape8 {
-  transform: translateX(407px) translateY(-393px);
-  height: 100px;
-  width: 100px;
-}
-#shape9 {
-  transform: translateX(200px) translateY(150px);
-  height: 150px;
-  width: 150px;
-}
-#shape10 {
-  transform: translateX(207px) translateY(157px);
-  width: 150px;
-  height: 150px;
-}
+
+/* Solid circles for profile background*/
+/* Outlines for profile background*/
+
+/* Solid circles for about background*/
+/* Outlines for about background*/
+
+/* Solid circles for work background*/
+/* Outlines for work background*/
+
+/* Solid circles for contact background*/
+/* Outlines for contact background*/
