@@ -17,19 +17,27 @@
     />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animations.css">
-    <script src="js/app.js" defer></script>
+    <script src="js/index.js" defer></script>
   </head>
-
   <body>
     <header class="page-header">
       <nav class="main-navigation page-header_item">
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
             <a
+              href="#profile"
+              target="_self"
+              role="menuitem"
+              class="navigation-list__item"
+              >Profile</a
+            >
+          </li>
+          <li role="presentation">
+            <a
               href="#work"
               target="_self"
               role="menuitem"
-              class="navigation-list__item button"
+              class="navigation-list__item"
               >Work</a
             >
           </li>
@@ -38,7 +46,7 @@
               href="#about"
               target="_self"
               role="menuitem"
-              class="navigation-list__item button"
+              class="navigation-list__item"
               >About</a
             >
           </li>
@@ -47,12 +55,22 @@
               href="#contact"
               target="_self"
               role="menuitem"
-              class="navigation-list__item button"
+              class="navigation-list__item"
               >Contact</a
             >
           </li>
         </ul>
       </nav>
+      <button id="down-arrow" onclick="showNavbar()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5M8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6"/>
+        </svg>
+      </button>
+      <button id="up-arrow" onclick="hideNavbar()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5m-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5"/>
+        </svg>
+      </button>
     </header>
     <section id="profile">
       <img
@@ -63,15 +81,14 @@
       <div>
         <h1 id="greeting">Hey there! &#128075</h1>
         <p>
-          My name is Henry Nguyen. <br/>
-          I am located in Pearland, Texas. <br/>
+          My name is Henry Nguyen, and<br/>
           I am a <span id="profession">Fullstack Web Developer</span>.
         </p>
         <a href="./img/Henry_Nguyen_Resume.png" class="button"> Check Out My Resume</a>
       </div>
     </section>
     <section id="work">
-        <h1>Some of My Projects</h1>
+        <h1>My Projects</h1>
         <div class="grid">
           <div class="grid-item">
             <h2>Portfolio Website</h2>
@@ -84,9 +101,8 @@
             <div class="work-extras">
               <a href="https://github.com/henryn05/portfolio" class="tags">Code</a>
               <div>
-                <p class="skills">HTML</p>
-                <p class="skills">CSS</p>
-                <p class="skills">JavaScript</p>
+                <p class="skill">HTML</p>
+                <p class="skill">CSS</p>
               </div>
             </div>
           </div>
@@ -105,13 +121,13 @@
                 <a href="https://myflix-hn05.netlify.app" class="tags">App</a>
               </div>
               <div>
-                <p class="skills">HTML</p>
-                <p class="skills">CSS</p>
-                <p class="skills">JavaScript</p>
-                <p class="skills">MongoDB</p>
-                <p class="skills">React</p>
-                <p class="skills">SCSS</p>
-                <p class="skills">React-Bootstrap</p>
+                <p class="skill">HTML</p>
+                <p class="skill">CSS</p>
+                <p class="skill">JavaScript</p>
+                <p class="skill">MongoDB</p>
+                <p class="skill">React</p>
+                <p class="skill">SCSS</p>
+                <p class="skill">React-Bootstrap</p>
               </div>
             </div>
           </div>
@@ -126,12 +142,12 @@
             <div class="work-extras">
               <a href="https://github.com/henryn05/meet" class="tags">Code</a>
               <div>
-                <p class="skills">HTML</p>
-                <p class="skills">CSS</p>
-                <p class="skills">JavaScript</p>
-                <p class="skills">React</p>
-                <p class="skills">Jest</p>
-                <p class="skills">Asastus</p>
+                <p class="skill">HTML</p>
+                <p class="skill">CSS</p>
+                <p class="skill">JavaScript</p>
+                <p class="skill">React</p>
+                <p class="skill">Jest</p>
+                <p class="skill">Asastus</p>
               </div>
             </div>
           </div>
@@ -147,12 +163,12 @@
             <div class="work-extras">
               <a href="https://github.com/henryn05/chat" class="tags">Code</a>
               <div>
-                <p class="skills">HTML</p>
-                <p class="skills">CSS</p>
-                <p class="skills">JavaScript</p>
-                <p class="skills">React Native</p>
-                <p class="skills">Expo</p>
-                <p class="skills">Firebase</p>              </div>
+                <p class="skill">HTML</p>
+                <p class="skill">CSS</p>
+                <p class="skill">JavaScript</p>
+                <p class="skill">React Native</p>
+                <p class="skill">Expo</p>
+                <p class="skill">Firebase</p>              </div>
             </div>
           </div>
           <div class="grid-item">
@@ -169,11 +185,11 @@
                 <a href="https://henryn05.github.io/pokedex/" class="tags">App</a>
               </div>
               <div>
-                <p class="skills">HTML</p>
-                <p class="skills">CSS</p>
-                <p class="skills">JavaScript</p>
-                <p class="skills">MongoDB</p>
-                <p class="skills">Bootstrap</p>
+                <p class="skill">HTML</p>
+                <p class="skill">CSS</p>
+                <p class="skill">JavaScript</p>
+                <p class="skill">MongoDB</p>
+                <p class="skill">Bootstrap</p>
               </div>
             </div>
             </div>
@@ -206,33 +222,23 @@
       </div>
       <div id="skills">
         <h1>My Skills</h1>
-        <h3>Frontend</h3>
-          <span class="skills tags">HTML</span>
-          <span class="skills tags">CSS</span>
-          <span class="skills tags">JavaScript</span>
-          <span class="skills tags">React</span>
-          <span class="skills tags">Responsive Design</span>
-        <h3>Backend</h3>
-          <span class="skills tags">MongoDB</span>
-          <span class="skills tags">Firebase</span>
-          <span class="skills tags">Express</span>
-          <span class="skills tags">REST APIs</span>
-          <span class="skills tags">Test Driven Development</span>
-        <h1>My Hobbies</h1>
-        <h3>Physical</h3>
-          <span class="skills tags">MMA</span>
-          <span class="skills tags">Jiu-Jitsu</span>
-          <span class="skills tags">Muay Thai</span>
-          <span class="skills tags">Triathlon Training</span>
-          <span class="skills tags">Wieght Lifting</span>
-        <h3>Non-Physical</h3>
-          <span class="skills tags">Personal Projects</span>
-          <span class="skills tags">Reading</span>
-          <span class="skills tags">Cooking</span>
+        <p class="skill-heading">- Frontend Skills -</p>
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">React</span>
+          <span class="skill">AWS</span>
+        <p class="skill-heading">- Backend Skills -</p>
+          <span class="skill">MongoDB</span>
+          <span class="skill">Firebase</span>
+          <span class="skill">Express</span>
+          <span class="skill">Node.js</span>
+          <span class="skill">Test Driven Development</span>
       </div>
     </section>
     <section id="contact">
-      <h1>Let's Connect!</h1>
+      <h1>Let's Collaborate!</h1>
+      <p>- henrypnguyen@gmail.com -</p>
       <br/>
       <form action="" method="post" id="contact-form">
         <label class="label" for="contact-phone"></label>
