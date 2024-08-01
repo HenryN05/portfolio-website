@@ -1,27 +1,27 @@
-const navbar = document.querySelector(".navigation-list");
-const downArrow = document.getElementById("down-arrow");
-const upArrow = document.getElementById("up-arrow");
+const menu = document.querySelector(".navigation-list");
+const show = document.getElementById("show");
+const hide = document.getElementById("hide");
 
 function setInitialNavbarState() {
-  if (navbar.style.display === "none") {
-    downArrow.style.display = "block";
-    upArrow.style.display = "none";
+  if (menu.classList.contains("visible")) {
+    show.classList.remove("visible");
+    hide.classList.add("visible");
   } else {
-    downArrow.style.display = "none";
-    upArrow.style.display = "block";
+    show.classList.add("visible");
+    hide.classList.remove("visible");
   };
 }
 
 function showNavbar() {
-  navbar.style.display = "block";
-  downArrow.style.display = "none";
-  upArrow.style.display = "block";
+  menu.classList.add("visible");
+  show.classList.remove("visible");
+  hide.classList.add("visible");
 };
 
 function hideNavbar() {
-  navbar.style.display = "none";
-  downArrow.style.display = "block";
-  upArrow.style.display = "none";
+  menu.classList.remove("visible");
+  show.classList.add("visible");
+  hide.classList.remove("visible");
 };
 
 document.addEventListener("DOMContentLoaded", setInitialNavbarState);
