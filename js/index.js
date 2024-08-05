@@ -1,6 +1,7 @@
 const menu = document.querySelector(".navigation-list");
 const show = document.getElementById("show");
 const hide = document.getElementById("hide");
+const tooltip = document.querySelector(".tooltip");
 
 function setInitialNavbarState() {
   if (menu.classList.contains("visible")) {
@@ -11,6 +12,14 @@ function setInitialNavbarState() {
     hide.classList.remove("visible");
   };
 }
+
+function initialTooltipDisplay() {
+  tooltip.classList.add("visible");
+
+  setTimeout(() => {
+    tooltip.classList.remove("visible");
+  }, 3000);
+};
 
 function showNavbar() {
   menu.classList.add("visible");
@@ -24,5 +33,8 @@ function hideNavbar() {
   hide.classList.remove("visible");
 };
 
-document.addEventListener("DOMContentLoaded", setInitialNavbarState);
+document.addEventListener("DOMContentLoaded", () => {
+  setInitialNavbarState();
+  initialTooltipDisplay();
+});
 

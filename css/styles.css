@@ -96,7 +96,8 @@ input[type=tel], input[type=email], textarea {
 }
 
 #show:hover .tooltip,
-#hide:hover .tooltip {
+#hide:hover .tooltip,
+.tooltip.visible {
   opacity: 1;
   visibility: visible;
 }
